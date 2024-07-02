@@ -3,53 +3,37 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.contanier {
-    position: relative;
-    max-width: 1080px;
+
+
+.logo{
+    width: 100px;
+    margin-top: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0%auto;
-    left: 5%;
-
-    
-}
-.icone {
-    display: flex;
-    margin-right: 8px;
-    margin: 5px;
-    left: 10px;
+    left: 50%;
+    top: 30%;
 
 
 }
 
-.hero-image {
+
+body {
+    margin: 0;
     background-image: url("imagem.svg");
     height: 500px;
-    background-position: center;
+    background-position: top center ;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-size: 1440 570;
+    display: flex;
+    justify-content: center;
 }
 
-.hero-text {
-    text-align: left;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-style: italic;
-    font-family: "ShopifySans", Helvetica, Arial, sans-serif;
-    margin: 10px;
-    padding: 0px;
-  }
  
 .text1 {
     font-family: "ShopifySans", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
-    top: 15% ;
+    top: 10% ;
     left: 38%;
     margin: 10px;
     display: flex;
@@ -66,7 +50,7 @@
     font-style: normal;
     text-align: left;
     left: 39%;
-    top: 23%;
+    top: 18%;
     margin: 5px;
     display: flex;
     text-align: center;
@@ -75,28 +59,13 @@
     color: white;
 
 }
-.adress {
-    position: absolute;
-    left: 37%;
-    top: 28%;
-    font-size: 16px;
-    font-weight: 300;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    margin: 4px 0px;
-    cursor: pointer;
-    box-sizing: border-box;
-    padding-top: 10px;
 
-}
 
 .button {
     background-color: #000;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 13px 30px;
     text-align: center;
     text-decoration: #f0f0f0;
     display: inline-block;
@@ -105,9 +74,9 @@
     cursor: pointer;
     position: absolute;
     justify-content: center;
-    left: 55%;
-    top: 28%;
-    box-sizing: border-box;
+    left: 57%;
+    top: 25%;
+    border-radius: 5px;
 
 }
 
@@ -116,8 +85,8 @@
     font-weight: 100;
     font-style: normal;
     text-align: left;
-    left: 36%;
-    top: 36%;
+    left: 39%;
+    top: 34%;
     margin: 5px;
     display: flex;
     text-align: center;
@@ -129,24 +98,107 @@
 
 }
 
-.img2 {
-    padding: 0;
-    width: 1000px;
-    height: 150px;
-    
-
-
-.img2 {
-    height: 150px;
-    width: 500px;
-    float: left;
-    margin: 40px 60px;
+.text4{
+    font-family: "Shopifysans", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    left: 47%;
+    top: 36%;
+    margin: 5px;
     display: flex;
+    text-align: center;
     justify-content: center;
-    background-position: center;
-    background-repeat: no-repeat;
     position: absolute;
+    color: white;
+    font-size: 8px;
+
+}
+
+.input {
+    position: absolute;
+    left: 39%;
+    top: 25%;
+    font-size: 13px;
+    font-weight: 250;
+    border: none;
+    padding: 14px 30px;
+    text-align: left;
+    display: inline-block;
+    margin: 4px 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.img2 {
+      height: 200px;
+      position: absolute;
+      left: 44%;
+      top: 50%;
+
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    left: 60%;
+    top: 50%;
+}
+
+.row {
+    justify-content: center;
+    position: absolute;
+    margin: 0px -5px;
+    top: 90%;
+    left: 27%;
+}
+
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+.card {
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    font-family:"Shopifysans", Arial, Helvetica, sans-serif;
+    box-shadow: 0 5px 0px 0 white;
+    padding: 16px;
+    text-align: left;
+    background-color: white;
     left: 40%;
-    top: 80%;
-    padding-top: 2rem;
+    top: 40%;
+  }
+
+.icone4 {
+    justify-content: bottom;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-bottom: 50%;
+
+}
+
+h2 {
+    font-weight: 80;
 }
