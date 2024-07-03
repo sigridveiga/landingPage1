@@ -34,6 +34,7 @@ h1 {
     font-style: normal;
     color: white;
     margin-top: 4%;
+    font-size: 50px;
 }
 
 .text2 {
@@ -45,6 +46,7 @@ h1 {
     display: flex;
     justify-content: center;
     color: white;
+    font-size: 25px;
 
 }
 
@@ -70,16 +72,12 @@ h1 {
     font-family: "Shopifysans", Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-align: left;
-    left: 39%;
-    top: 34%;
-    margin: 5px;
-    display: flex;
     text-align: center;
+    display: flex;
     justify-content: center;
-    position: absolute;
     color: white;
-    font-size: 8px;
+    font-size: 9px;
+    margin-top: 1%;
 
 
 }
@@ -88,16 +86,11 @@ h1 {
     font-family: "Shopifysans", Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-align: left;
-    left: 47%;
-    top: 36%;
-    margin: 5px;
     display: flex;
     text-align: center;
     justify-content: center;
-    position: absolute;
     color: white;
-    font-size: 8px;
+    font-size: 9px;
 
 }
 
@@ -132,22 +125,6 @@ h1 {
     left: 60%;
     top: 50%;
 }
-
-/* .row {
-    margin-top: 20%;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    margin: 0px -5px;
-    top: 90%;
-    left: 27%; */
-/* }
-
-.row:after {
-    content: "";
-    display: flex;
-    clear: both;
-  } */
 
 .column {
     float: left;
@@ -196,7 +173,7 @@ h2 {
 .colunas {
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 5%;
     position: relative;
 
 }
@@ -213,21 +190,20 @@ h3 {
     display: flex;
     text-align: center;
     justify-content: center;
-    position: absolute;
     color: black;
     margin-top: 10%;
-    left: 30%;
+    line-height: normal;
 
 }
 
 .ass {
     display: flex;
     justify-content: center;
-    position: relative;
-    margin-top: 15%;
+    margin-top: 2%;
     font-size: 10px;
     font-family: "Shopifysans", Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
+    color: rgb(77, 73, 73);
 }
 
 .corCard {
@@ -235,8 +211,13 @@ h3 {
 
 }
 
+.divb2{
+    display: flex;
+    justify-content: center;
+}
+
 .button2 {
-    background-color: #065103;
+    background-color: #088464;
     border: none;
     color: white;
     padding: 13px 30px;
@@ -247,7 +228,7 @@ h3 {
     margin: 4px 0px;
     justify-content: center;
     border-radius: 3px;
-    margin-top: 10%;
+    margin-top: 3%;
     left: 50%;
 
 
@@ -257,6 +238,59 @@ h3 {
 .inputBotao {
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 2%;
     
+}
+footer {
+	background-color: #f6fdf4;
+	color: #000000;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    background-size: 1440 570;
+    margin-top: 10%;
+}
+
+.f1 {
+    color: #088464;
+    font-size: 18px;
+    font-family: "Shopifysans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.question {
+    font-family: "Shopifysans", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 13px;
+    text-align: left;
+    display: flex;
+    border-bottom: 0.2px solid black;
+    margin-top: 10% ;
+    font-weight: 600;
+    
+
+}
+
+.faqs {
+    max-width: 700px;
+    margin-top: 5%;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    text-align: left;
+}
+
+.pedu {
+    text-align: left;
+}
+
+.end {
+    display: flex;
+    justify-content: right;
+    margin: 1%;
+    color: #088464;
+}
+.end2 {
+    display: flex;
+    justify-content: right;
 }
